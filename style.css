@@ -2,6 +2,7 @@
 html{
     box-sizing:border-box;
     scroll-behavior: smooth;
+    height: 2000px;
 }
 *,*:before,*:after{
     box-sizing:inherit
@@ -223,7 +224,7 @@ a{
     background-color:#f1f1f1
 }
  .gva-hoverable tbody tr:hover,.gva-ul.gva-hoverable li:hover{
-    background-color:#ccc
+    background-color:rgb(255, 255, 255)
 }
 .gva-centered tr th,.gva-centered tr td{
     text-align:center
@@ -271,7 +272,7 @@ a{
  .gva-btn.gva-disabled:hover,.gva-btn:disabled:hover{
     box-shadow:none
 }
- .gva-badge,.gva-tag{
+.gva-badge,.gva-tag{
     background-color:#000;
     color:#fff;
     display:inline-block;
@@ -295,7 +296,8 @@ a{
     border-bottom:none
 }
  .gva-tooltip,.gva-display-container{
-    position:relative
+    position:relative;
+    top: 310px;
 }
 .gva-tooltip .gva-text{
     display:none
@@ -745,6 +747,7 @@ a{
  .gva-display-bottommiddle{
     position:absolute;
     left:50%;
+    top: 70%;
     bottom:0;
     transform:translate(-50%,0%);
     -ms-transform:translate(-50%,0%)
@@ -795,7 +798,7 @@ a{
 }
  .gva-code{
     width:auto;
-    background-color:#fff;
+    background-color:rgb(255,255, 255);
     padding:8px 12px;
     border-left:4px solid #4CAF50;
     word-wrap:break-word
@@ -1279,7 +1282,7 @@ a{
     color:#d2be0e!important
 }
  .gva-text-white,.gva-hover-text-white:hover{
-    color:#fff!important
+    color:#ED9424!important
 }
  .gva-text-black,.gva-hover-text-black:hover{
     color:#000!important
@@ -1374,12 +1377,49 @@ a{
  .gva-border-pale-red,.gva-hover-border-pale-red:hover{
     border-color:#ffe7e7!important
 }
+
 .gva-border-pale-green,.gva-hover-border-pale-green:hover{
     border-color:#e7ffe7!important
 }
+
  .gva-border-pale-yellow,.gva-hover-border-pale-yellow:hover{
     border-color:#ffffcc!important
 }
+
 .gva-border-pale-blue,.gva-hover-border-pale-blue:hover{
     border-color:#e7ffff!important
+}
+
+#gva-title {
+    position: relative;
+    top: -400px;
+}
+
+#gva-phrase {
+    position: relative;
+    top: -410px;
+}
+
+#gva-mission {
+    position: relative;
+    top: -380px;
+}
+
+#everything {
+    position: relative; 
+    top: 400px;
+}
+
+#volunteer {
+    position: relative;
+    top:130px;
+}
+
+#contact {
+    position: relative;
+    top: 100px;
+}
+
+body {
+    background-color:#cc8400
 }
